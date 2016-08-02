@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
 
   def about
+  	@about = "Lorenzo Franceschini"
   end
 end

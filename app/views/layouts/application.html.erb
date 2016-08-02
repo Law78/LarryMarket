@@ -10,10 +10,17 @@
   </head>
 
   <body>
+  
   	<header class="navbar-fixed">
   		<%= render 'layouts/navigation' %>
   	</header>
+
+  	<main>
     <%= yield %>
+    </main>
+
+    <%= render 'layouts/footer' %>
+
     <script>
     	$(".button-collapse").sideNav();
     </script>
